@@ -1,0 +1,15 @@
+http://localhost:8080/account
+
+{"accountId":"101","accountName":"Adam Pike","balance":"5000.00"}
+
+
+http://localhost:8080/accountId/101
+
+
+http://localhost:8080/accountId/101/deposit/3000
+
+http://localhost:8080/accountId/101/withdraw/1000
+
+
+http://localhost:8080/accountIdFrom/101/accountIdTo/102/transfer/2000/
+
